@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paul Merolla</title>
+  <meta name="description" content="Paul Merolla — AI inference at AMD, co-founder of MK1 (acquired by AMD), founding team at Neuralink, lead designer of brain-inspired chips including IBM's TrueNorth and Stanford's Neurogrid.">
+  <meta property="og:title" content="Paul Merolla">
+  <meta property="og:description" content="Building more intelligent computers, drawing on neuroscience, hardware, and machine learning.">
+  <meta property="og:image" content="https://paulmerolla.com/img/paul.jpg">
+  <meta property="og:url" content="https://paulmerolla.com/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">Paul Merolla</a>
+    <nav>
+      <a href="#news">News</a>
+      <a href="#work">Experience</a>
+      <a href="#publications">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <img class="portrait" src="img/paul.jpg" width="800" height="1200" alt="Portrait of Paul Merolla">
+    <div class="hero-text">
+      <h1>Paul Merolla</h1>
+      <p class="lede">I build more intelligent computers, drawing on neuroscience, chip design, and machine learning.</p>
+      <p>I co-founded <a href="https://mk1.ai">MK1</a> in 2023 to make AI inference fast, efficient, and generally useful. Our Flywheel engine grew to serve over a trillion tokens a day, and in 2025 <a href="https://www.amd.com/en/blogs/2025/amd-acquires-mk1-to-advance-ai-inference-performance.html">MK1 was acquired by AMD</a>, where our team now works in the Artificial Intelligence Group.</p>
+      <p>Before that, I was on the founding team at <a href="https://neuralink.com">Neuralink</a>, where I co-led chip design and developed the algorithms that decode brain activity. Earlier in my career, I designed brain-inspired chips at IBM and Stanford.</p>
+      <ul class="links">
+        <li><a href="mailto:pmerolla@gmail.com">Email</a></li>
+        <li><a href="https://x.com/paul_merolla">X / Twitter</a></li>
+        <li><a href="https://scholar.google.com/citations?user=8dA3jnsAAAAJ&amp;hl=en">Google Scholar</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="news" class="wrap">
+    <h2 class="eyebrow">News</h2>
+
+    <article class="post">
+      <img src="img/mk1-flywheel.jpg" width="800" height="443" alt="Illustration of the MK1 Flywheel inference engine" loading="lazy">
+      <div>
+        <time datetime="2025-11-10">November 10, 2025</time>
+        <h3>MK1 joins AMD</h3>
+        <p>When we started MK1 in early 2023, ChatGPT had just launched and there was an obvious gap between what AI could theoretically do and what it could reliably deliver in the real world. Our vision was simple: build foundational technology to make AI fast, efficient, and generally useful.</p>
+        <p>We delivered. Our Flywheel inference engine now serves over a trillion tokens a day, and our Comprehension Engine gives LLMs a scalable reasoning and memory layer for coding applications and complex enterprise workflows.</p>
+        <p>I'm excited that <a href="https://www.amd.com/en/blogs/2025/amd-acquires-mk1-to-advance-ai-inference-performance.html">MK1 is joining AMD</a>, in Anush Elangovan's organization. Joining AMD is the right next step for our technology and our mission: we'll have the resources and platform to reach the scale we always envisioned, while our team continues building what we started. I'm deeply grateful to our backers, our customers, and especially the MK1 team, whose talent and execution turned our vision into reality.</p>
+      </div>
+    </article>
+
+    <article class="post">
+      <img src="img/neuralink-implant.jpg" width="874" height="900" alt="Exploded view of the Neuralink implant" loading="lazy">
+      <div>
+        <time datetime="2022-06-03">June 3, 2022</time>
+        <h3>Off to a new adventure</h3>
+        <p>After five and a half years, I decided to leave Neuralink to pursue another project. It was a difficult decision: I still find Neuralink's mission extremely compelling, and I was having a lot of fun developing algorithms to decode brain activity. What I'll miss most is working with the incredibly talented and passionate team. I look forward to seeing our work improve the lives of patients who suffer from brain injury.</p>
+      </div>
+    </article>
+
+    <article class="post">
+      <img src="img/pnas-convnets.jpg" width="383" height="424" alt="Figure from the PNAS paper on convolutional networks for neuromorphic hardware" loading="lazy">
+      <div>
+        <time datetime="2016">2016</time>
+        <h3>Convolutional networks for energy-efficient neuromorphic computing</h3>
+        <p>Our <a href="https://www.pnas.org/doi/10.1073/pnas.1604850113">PNAS paper</a> asks how deep learning can work within the constraints of low-power neural hardware. We describe a modified backpropagation that reaches near state-of-the-art accuracy with discrete synapses, limited-precision communication, and restricted connectivity, running live on TrueNorth across eight datasets at 1,200–2,600 frames per second while using only 25–275&nbsp;mW.</p>
+      </div>
+    </article>
+
+    <article class="post">
+      <img src="img/truenorth-science-cover.jpg" width="346" height="440" alt="Cover of Science, August 2014, featuring the TrueNorth chip" loading="lazy">
+      <div>
+        <time datetime="2014-08-08">August 8, 2014</time>
+        <h3>TrueNorth on the cover of Science</h3>
+        <p>TrueNorth's architecture is inspired by the structure and function of the brain: a 64&times;64 array of neurosynaptic cores, each combining neurons (computation), synapses (memory), and a spike router (communication). With 5.4 billion transistors, it has one million neurons and 256 million synapses, runs in real time, and consumes less than 100&nbsp;mW. I was one of the lead chip architects.</p>
+        <p>Read the <a href="https://www.science.org/doi/10.1126/science.1254642">Science article</a> or the <a href="merolla_main_som.pdf">pre-print (PDF)</a>.</p>
+      </div>
+    </article>
+
+    <article class="post">
+      <img src="img/neurogrid.jpg" width="900" height="761" alt="Photograph of a Neurocore chip" loading="lazy">
+      <div>
+        <time datetime="2014-04-26">April 26, 2014</time>
+        <h3>Neurogrid in Proceedings of the IEEE</h3>
+        <p>Neurogrid is an analog neuromorphic supercomputer made of sixteen Neurocore chips (pictured) connected in a tree. I co-led the design with <a href="http://www.johnarthur.org">John Arthur</a>, Rodrigo Alvarez, and Kwabena Boahen.</p>
+      </div>
+    </article>
+  </section>
+
+  <section id="work" class="wrap">
+    <h2 class="eyebrow">Experience</h2>
+    <ol class="timeline">
+      <li><span class="when">2025 –</span><div><strong>AMD, Artificial Intelligence Group</strong><p>High-speed inference and enterprise AI on AMD Instinct GPUs.</p></div></li>
+      <li><span class="when">2023 – 2025</span><div><strong>Co-founder, <a href="https://mk1.ai">MK1</a></strong><p>Built the Flywheel inference engine (over a trillion tokens a day) and the Comprehension Engine, a reasoning and memory layer for LLMs. Acquired by AMD.</p></div></li>
+      <li><span class="when">2017 – 2022</span><div><strong>Founding team, <a href="https://neuralink.com">Neuralink</a></strong><p>High-bandwidth brain–machine interfaces; algorithms for decoding brain activity.</p></div></li>
+      <li><span class="when">2010 – 2016</span><div><strong>Research scientist, IBM Brain-Inspired Computing</strong><p>Lead chip architect on TrueNorth, part of the DARPA SyNAPSE program.</p></div></li>
+      <li><span class="when">2006 – 2010</span><div><strong>Postdoctoral scholar, Stanford <a href="https://web.stanford.edu/group/brainsinsilicon/">Brains in Silicon</a></strong><p>Co-led design of Neurogrid, a sixteen-chip system emulating one million neurons in real time.</p></div></li>
+      <li><span class="when">2006</span><div><strong>PhD, Bioengineering, University of Pennsylvania</strong></div></li>
+      <li><span class="when">2000</span><div><strong>BS, Electrical Engineering, University of Virginia</strong></div></li>
+    </ol>
+  </section>
+
+  <section class="wrap" aria-labelledby="interests-h">
+    <h2 id="interests-h" class="eyebrow">Interests</h2>
+    <ul class="tags">
+      <li>LLM inference</li><li>Deep learning</li><li>Low-precision neural networks</li>
+      <li>Neuroscience</li><li>Statistical mechanics</li><li>Stochastic computing</li>
+      <li>Asynchronous circuits</li><li>PyTorch</li>
+    </ul>
+  </section>
+
+  <section id="publications" class="wrap">
+    <h2 class="eyebrow">Publications</h2>
+    <p class="muted">Full list on <a href="https://scholar.google.com/citations?user=8dA3jnsAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+    <h3 class="pub-group">Journals</h3>
+    <ol class="pubs">
+      <li><span class="yr">2016</span><div><a class="title" href="https://www.pnas.org/doi/10.1073/pnas.1604850113">Convolutional networks for fast, energy-efficient neuromorphic computing</a><span class="authors">Esser S, <b>Merolla P</b>, Arthur JV, et al.</span><span class="venue">Proceedings of the National Academy of Sciences, 2016</span></div></li>
+      <li><span class="yr">2014</span><div><a class="title" href="https://www.science.org/doi/10.1126/science.1254642">A million spiking-neuron integrated circuit with a scalable communication network and interface</a><span class="authors"><b>Merolla P</b>, Arthur JV, Alvarez-Icaza R, Cassidy A, Sawada J, Akopyan F, Jackson B, et al.</span><span class="venue">Science, 345(6197):668–673, 2014 · Cover &amp; feature story · <a href="merolla_main_som.pdf">PDF</a></span>
+        <details><summary>BibTeX</summary><pre>@article{merolla2014Science,
+  author  = {P.A. Merolla and J.V. Arthur and R. Alvarez-Icaza and A.S. Cassidy and J. Sawada and F. Akopyan and B.L. Jackson and N. Imam and C. Guo and Y. Nakamura and B. Brezzo and I. Vo and S.K. Esser and R. Appuswamy and B. Taba and A. Amir and M.D. Flickner and W.P. Risk and R. Manohar and D.S. Modha},
+  title   = {A million spiking-neuron integrated circuit with a scalable communication network and interface},
+  journal = {Science},
+  year    = {2014},
+  month   = {August}
+}</pre></details></div></li>
+      <li><span class="yr">2014</span><div><span class="title">Neurogrid: A mixed-analog-digital multichip system for large-scale neural simulations</span><span class="authors">Benjamin BV, Gao P, McQuinn E, Choudhary S, Chandrasekaran A, Bussat JM, Alvarez R, Arthur JV, <b>Merolla P</b>, Boahen K</span><span class="venue">Proceedings of the IEEE, 102(5):699–716, 2014</span>
+        <details><summary>BibTeX</summary><pre>@article{benjamin2014neurogrid,
+  author       = {Benjamin, Ben Varkey and Gao, Peiran and McQuinn, Emmett and Choudhary, Swadesh and Chandrasekaran, Anand and Bussat, Jean-Marie and Alvarez-Icaza, Rodrigo and Arthur, John and Merolla, Paul and Boahen, Kwabena},
+  title        = {Neurogrid: A mixed-analog-digital multichip system for large-scale neural simulations},
+  journal      = {Proceedings of the IEEE},
+  organization = {IEEE},
+  year         = {2014},
+  volume       = {102},
+  number       = {5},
+  pages        = {699--716}
+}</pre></details></div></li>
+      <li><span class="yr">2014</span><div><span class="title">A multicast tree router for multichip neuromorphic systems</span><span class="authors"><b>Merolla P</b>, Arthur J, Alvarez R, Bussat JM, Boahen K</span><span class="venue">IEEE Transactions on Circuits and Systems I, 61(3):820–833, 2014</span>
+        <details><summary>BibTeX</summary><pre>@article{Merolla14TreeRouter,
+  author       = {Merolla, Paul and Arthur, John and Alvarez, Rodrigo and Bussat, Jean-Marie and Boahen, Kwabena},
+  title        = {A Multicast Tree Router for Multichip Neuromorphic Systems},
+  journal      = {Circuits and Systems I: Regular Papers, IEEE Transactions on},
+  organization = {IEEE},
+  year         = {2014},
+  month        = {March},
+  volume       = {61},
+  number       = {3},
+  pages        = {820--833}
+}</pre></details></div></li>
+      <li><span class="yr">2012</span><div><span class="title">Implementation of olfactory bulb glomerular-layer computations in a digital neurosynaptic core</span><span class="authors">Imam N, Cleland T, Manohar R, <b>Merolla P</b>, Arthur J, Akopyan F, Modha D</span><span class="venue">Frontiers in Neuromorphic Engineering, 2012</span></div></li>
+      <li><span class="yr">2007</span><div><span class="title">Expandable networks for neuromorphic chips</span><span class="authors"><b>Merolla P</b>, Arthur J, Shi B, Boahen K</span><span class="venue">IEEE Transactions on Circuits and Systems I, 54(2):301–311, 2007</span></div></li>
+      <li><span class="yr">2005</span><div><span class="title">Neuromorphic implementation of orientation hypercolumns</span><span class="authors">Choi T, <b>Merolla P</b>, Arthur J, Boahen K, Shi B</span><span class="venue">IEEE Transactions on Circuits and Systems I, 52(6):1049–1060, 2005</span></div></li>
+    </ol>
+
+    <h3 class="pub-group">Conferences</h3>
+    <ol class="pubs">
+      <li><span class="yr">2015</span><div><a class="title" href="https://papers.nips.cc/paper/5862-backpropagation-for-energy-efficient-neuromorphic-computing">Backpropagation for energy-efficient neuromorphic computing</a><span class="authors">Esser S, Appuswamy R, <b>Merolla P</b>, Arthur JV, Modha D</span><span class="venue">NeurIPS, 1117–1125, 2015 · Spotlight</span></div></li>
+      <li><span class="yr">2015</span><div><span class="title">Gibbs sampling with low-power spiking digital neurons</span><span class="authors">Das S, Pedroni B, <b>Merolla P</b>, Arthur JV, Cassidy A, Jackson B, Modha D, Cauwenberghs G, Kreutz-Delgado K</span><span class="venue">ISCAS, 2015</span></div></li>
+      <li><span class="yr">2013</span><div><span class="title">Cognitive computing building block: A versatile and efficient digital neuron model for neurosynaptic cores</span><span class="authors">Cassidy A, <b>Merolla P</b>, et al.</span><span class="venue">IJCNN, 2013</span></div></li>
+      <li><span class="yr">2013</span><div><span class="title">Cognitive computing systems: Algorithms and applications for networks of neurosynaptic cores</span><span class="authors">Esser S, Andreopoulos A, Appuswamy R, Datta P, Barch D, Amir A, Arthur J, Cassidy A, Flickner M, <b>Merolla P</b>, et al.</span><span class="venue">IJCNN, 2013</span></div></li>
+      <li><span class="yr">2012</span><div><span class="title">A superposable silicon synapse with programmable reversal potential</span><span class="authors">Benjamin B, Arthur J, Gao P, <b>Merolla P</b>, Boahen K</span><span class="venue">IEEE EMBC, 2012</span></div></li>
+      <li><span class="yr">2012</span><div><span class="title">Building block of a programmable neuromorphic substrate: A digital neurosynaptic core</span><span class="authors">Arthur J, <b>Merolla P</b>, Akopyan F, et al.</span><span class="venue">IJCNN, 2012</span></div></li>
+      <li><span class="yr">2012</span><div><span class="title">A digital neurosynaptic core using event-driven QDI circuits</span><span class="authors">Imam N, Akopyan F, <b>Merolla P</b>, Arthur J, Manohar R, Modha D</span><span class="venue">ASYNC, 2012 · Best Paper Award</span></div></li>
+      <li><span class="yr">2011</span><div><span class="title">A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm</span><span class="authors"><b>Merolla P</b>, Arthur J, Akopyan F, Imam N, Manohar R, Modha D</span><span class="venue">IEEE Custom Integrated Circuits Conference, 2011</span>
+        <details><summary>BibTeX</summary><pre>@incollection{Merolla11DigNeuroCore,
+  author       = {Merolla, Paul and Arthur, John and Akopyan, Filipp and Imam, Nabil and Manohar, Rajit and Modha, Dharmendra S},
+  title        = {A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm},
+  booktitle    = {Custom Integrated Circuits Conference (CICC), 2011 IEEE},
+  organization = {IEEE},
+  year         = {2011},
+  pages        = {1--4}
+}</pre></details></div></li>
+      <li><span class="yr">2006</span><div><span class="title">Programmable connections in neuromorphic grids</span><span class="authors">Lin J, <b>Merolla P</b>, Arthur J, Boahen K</span><span class="venue">IEEE Midwest Symposium on Circuits and Systems, 2006</span></div></li>
+      <li><span class="yr">2006</span><div><span class="title">Dynamic computation in a recurrent network of heterogeneous silicon neurons</span><span class="authors"><b>Merolla P</b>, Boahen K</span><span class="venue">ISCAS, 2006</span></div></li>
+      <li><span class="yr">2004</span><div><span class="title">A recurrent model of orientation maps with simple and complex cells</span><span class="authors"><b>Merolla P</b>, Boahen K</span><span class="venue">NeurIPS 16, 2004</span></div></li>
+    </ol>
+
+    <h3 class="pub-group">Preprints &amp; thesis</h3>
+    <ol class="pubs">
+      <li><span class="yr">2016</span><div><a class="title" href="https://arxiv.org/abs/1606.01981">Deep neural networks are robust to weight binarization and other non-linear distortions</a><span class="authors"><b>Merolla P</b>, Appuswamy R, Arthur JV, Esser SK, Modha DS</span><span class="venue">arXiv:1606.01981, 2016</span>
+        <details><summary>BibTeX</summary><pre>@article{merolla2016arXiv,
+  author  = {P.A. Merolla and R. Appuswamy and J.V. Arthur and S.K. Esser and D.S. Modha},
+  title   = {Deep neural networks are robust to weight binarization and other non-linear distortions},
+  journal = {arXiv:1606.01981},
+  year    = {2016},
+  month   = {June}
+}</pre></details></div></li>
+      <li><span class="yr">2010</span><div><a class="title" href="https://arxiv.org/abs/1009.5473">The thermodynamic temperature of a rhythmic spiking network</a><span class="authors"><b>Merolla P</b>, Ursell T, Arthur JV</span><span class="venue">arXiv:1009.5473, 2010</span>
+        <details><summary>BibTeX</summary><pre>@article{merolla2010thermodynamic,
+  author  = {Merolla, Paul and Ursell, Tristan and Arthur, John},
+  title   = {The thermodynamic temperature of a rhythmic spiking network},
+  journal = {arXiv preprint arXiv:1009.5473},
+  month   = {September},
+  year    = {2010}
+}</pre></details></div></li>
+      <li><span class="yr">2006</span><div><span class="title">A silicon model of the primary visual cortex: Representing features through stochastic variations</span><span class="authors"><b>Merolla P</b></span><span class="venue">Doctoral dissertation, University of Pennsylvania, 2006</span></div></li>
+    </ol>
+  </section>
+
+</main>
+
+<footer class="wrap site-footer">
+  <p>© Paul Merolla · <a href="mailto:pmerolla@gmail.com">pmerolla@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
