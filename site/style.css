@@ -63,7 +63,7 @@ img { max-width: 100%; height: auto; display: block; }
 .portrait { border-radius: 10px; width: 220px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; }
 h1 { font-family: var(--serif); font-weight: 500; font-size: 2.6rem; line-height: 1.1; margin: 0 0 0.75rem; }
 .lede { font-family: var(--serif); font-size: 1.35rem; line-height: 1.4; margin: 0 0 1rem; }
-.hero p { margin: 0 0 1rem; }
+.hero p { margin: 0 0 1rem; font-family: var(--serif); font-size: 1.2rem; line-height: 1.5; }
 .links { list-style: none; padding: 0; margin: 1.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .links a {
   display: inline-block; padding: 0.35rem 0.85rem; border: 1px solid var(--rule);
